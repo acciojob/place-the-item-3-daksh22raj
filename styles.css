@@ -1,2 +1,20 @@
+.holder {
+  display: flex;                  /* enable flexbox */
+  justify-content: space-evenly;  /* evenly space the items */
+  align-items: center;            /* vertically align items (optional) */
+  flex-wrap: wrap;                /* allow wrapping to next row */
+  gap: 15px;                      /* space between items */
+  padding: 20px;
+  background: #f5f5f5;            /* light background */
+  border: 2px solid #ccc;         /* just for clarity */
+}
 
-/* Your CSS Code here. */
+.item {
+  background: #4a90e2;            /* nice blue color */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 120px;               /* prevent items from shrinking too small */
+  text-align: center;
+  font-weight: bold;
+}
